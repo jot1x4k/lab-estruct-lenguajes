@@ -4,6 +4,8 @@
 int main(int argc, char *argv[]) {
     int num1, num2;
 
+    printf("===Operaciones basicas===\n");
+
     printf("Ingrese el primer número: ");
     scanf("%d", &num1);
     

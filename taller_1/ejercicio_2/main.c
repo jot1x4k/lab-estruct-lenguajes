@@ -3,6 +3,9 @@
 
 int main(int argc, char *argv[]) {
     int num;
+
+    printf("===Uso de estructuras condicionales===\n");
+
     printf("Ingrese un numero entero: ");
     scanf("%d", &num);
 
