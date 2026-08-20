@@ -11,3 +11,15 @@ un número ingresado por el usuario, asegurando que el número sea válido. Adem
 solicitar al usuario un número n y calcular la suma de los primeros n números naturales
 usando un bucle for. Finalmente, explicar la diferencia entre for, while y do-while,
 destacando sus aplicaciones y cuándo es más eficiente utilizar cada uno
+
+Diferencias Estructurales
+- for: Inicialización, condición y actualización integradas en la cabecera. Control explícito del contador.
+- while: Evaluación de condición antes de cada iteración. Cuerpo puede no ejecutarse nunca.
+- do-while: Ejecución del cuerpo antes de evaluar la condición. Garantiza al menos una ejecución.
+
+Caso de Uso Ideal
+- for: Iteración sobre rangos conocidos, arrays, listas indexadas.
+Localidad de referencia; variable de control acotada al scope del bucle.
+- while: Lectura de streams, validación de entrada, búsqueda con condición de parada indeterminada.
+Desacopla lógica de terminación de la gestión de contadores.
+- do-while: Menús interactivos, procesamiento de tokens donde se requiere consumir antes de validar.
